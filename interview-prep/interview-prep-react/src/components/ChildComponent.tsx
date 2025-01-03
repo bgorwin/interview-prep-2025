@@ -6,4 +6,4 @@ export default function ChildComponent({sendDataToParent}: {sendDataToParent: (d
             <input placeholder="Child input" onChange={(e) => sendDataToParent(e.target.value)}></input>
         </div>
     );
-}
+}   

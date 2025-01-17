@@ -1,5 +1,7 @@
 import './App.css'
 import './components/ParentComponent';
+import './components/NewFileTest';
+import NewTestFile from './components/NewFileTest';
 // import { ParentComponent } from './components/ParentComponent';
 // import FilteringQuestionComponent from './components/FilteringQuestionComponent';
 
@@ -23,6 +25,8 @@ function App() {
         <p>Hello World</p>
         <p>This is a comment</p>
       </Comment>
+
+      <NewTestFile />
     </>
   )
 }
